@@ -1,0 +1,172 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+p{
+  color: grey;
+}
+/*Title Section*/
+#title{
+  background-color: #17202a;
+  padding: 3% 15% 5%;
+}
+.navbar-icon{
+  color: #ff0000;
+  margin: 1rem;
+}
+.brand-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+
+}
+.lists{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.title-quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.btn-download{
+  margin: 5% 3% 5% 0%;
+}
+
+.fab-icon{
+  margin-right: 8px;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  right: 20%;
+  top: -25%;
+  position: absolute;
+}
+
+/*Features Section*/
+#features{
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.fa-icon{
+  color: #ff0000;
+  margin: 1rem;
+}
+.fa-icon:hover{
+  color: #943126;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.feature-col{
+  padding: 5%;
+}
+
+/*Testimonial Section*/
+#testimonials{
+  background-color: #17202a;
+  text-align: center;
+  color: white;
+}
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 14%;
+}
+
+/*Press Section*/
+#press{
+  background-color: #17202a;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*Pricing Section*/
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.price-heading, .price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*CTA Section*/
+#cta{
+  background-color: #17202a;
+  padding: 7% 14%;
+  text-align: center;
+}
+.cta-title{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+/*Footer Section*/
+#footer{
+  background-color: #1c2833;
+  text-align: center;
+  padding: 7% 14%;
+
+}
+.foot-icon{
+  padding: 20px 10px;
+}
+
+@media (max-width: 1024px){
+  .title-quote{
+    font-size: 3rem;
+  }
+  .title-img{
+    transform: rotate(0deg);
+  }
+  .btn-download{
+    margin-right: 6px;
+  }
+}
+@media (max-width: 768px){
+  .title-img{
+    position: relative;
+    left: 100px;
+    width: 60%;
+  }
+  .column-one{
+    text-align: center;
+  }
+}
+@media (max-width: 375px){
+  .navbar-icon{
+    width: 50px;
+  }
+  .brand-title{
+    font-size: 50px;
+  }
+
+}
